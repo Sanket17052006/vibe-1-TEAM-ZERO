@@ -1,0 +1,2 @@
+@import "tailwindcss";
+:root{--ink:#12251f;--muted:#718078;--paper:#f6f8f5;--green:#1e624c;--line:#e6ebe7}*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font-family:Arial,Helvetica,sans-serif}button,input,select{font:inherit}button{cursor:pointer}.lift{transition:transform .18s ease,box-shadow .18s ease}.lift:hover{transform:translateY(-2px);box-shadow:0 12px 30px #193c2e12}.fade{animation:fade .25s ease both}@keyframes fade{from{opacity:0;transform:translateY(5px)}to{opacity:1;transform:translateY(0)}}
